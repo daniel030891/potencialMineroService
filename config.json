@@ -1,0 +1,27 @@
+{
+  "workspace": "C:\\plantilla_geoproceso",
+  "nameFiles": [
+    "V1_UnidadesGeologicas.shp",
+    "V2_ConcesionesMineras.shp",
+    "V3_FallasGeologicas.shp",
+    "V4_DepositosMinerales.shp",
+    "V5_Geoquimiza.shp",
+    "V6_SensoresRemotos.shp"
+  ],
+  "campo": "VALOR",
+  "tipocampo": [
+    "Double",
+    "Float"
+  ],
+  "geometria": "Polygon",
+  "pixel": 500,
+  "ponderacion": [0.481, 0.239, 0.145, 0.0069, 0.038, 0.027],
+  "errores": {
+    "1": "Las capas ingresadas no estan completas o el nombre esta mal escrito...",
+    "2": "El proceso se realiza sobre entidades poligonales...",
+    "3": "El campo 'VALOR' no esta presente en las capas o no contiene el tipo de dato correcto (double, float)..."
+  },
+  "demo": "D:\\desarrollosEtapa2\\Solicitudes\\ServicioPotencialMinero\\insumos\\zips\\demo.zip",
+  "nameZip": "PotencialMinero.zip",
+  "sr": 4326
+}
